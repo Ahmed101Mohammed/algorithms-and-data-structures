@@ -2,14 +2,14 @@
 
 import { binarySearch } from "../../lib/binarySearch";
 
-// Steps: O(n^2)
+// Idea (1): O(n^2)
 // 1. External loop start from i = 0 to i < arr.length
 // 2. Internl loop start from j = i + 1 to j < arr.length
 // 3. Counter start from 0;
 // 4. if arr[i] + arr[j] < target then ++Counter
 
 
-// Steps (2): O(n^2) better
+// Idea (2): O(n^2) better
 // 1. Order the array O(n log(n))
 // 2. The same internal and externl loop.
 // 3. Break the internal loop directly when conditian fail.
@@ -17,7 +17,7 @@ import { binarySearch } from "../../lib/binarySearch";
 //  the internal loop.
 
 
-// Steps (3): O(n log n)
+// Idea (3): O(n log n)
 // 1. Order the array O(n log n)
 // 2. External Loop
 // 3. Search by binary search for the target - arr[i]
