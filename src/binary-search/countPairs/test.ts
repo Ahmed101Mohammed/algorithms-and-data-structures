@@ -1,3 +1,4 @@
+import { assertEqual } from "../../lib/test";
 import { countPairs } from "./countPairs";
 
 function main():void
@@ -38,18 +39,6 @@ const example3 = () =>
   let expectedOutput = 0;
   let output = countPairs(nums, target);
   assertEqual(name, output, expectedOutput)
-}
-
-const assertEqual = (testName: string, output: number, 
-  expectedOutput: number) =>
-{
-  if(output === expectedOutput)
-    console.log(`Test '${testName}': PASSED`);
-  else
-    console.log(`Test '${testName}': FAILED
-      Output: ${output}
-      Expected Output: ${expectedOutput}  
-    `)
 }
 
 main();
