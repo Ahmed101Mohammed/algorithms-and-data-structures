@@ -9,4 +9,4 @@ not created for teatching porpus).
 ## Algorithms:
 ### Binary Search
 - [Count Pairs](./src/binary-search/countPairs/countPairs.ts)
-- [Count Negative Numbers in a Sorted Matrix](./src/binary-search/countNegatives)
+- [Count Negative Numbers in a Sorted Matrix](./src/binary-search/countNegatives/countNegatives.ts)
